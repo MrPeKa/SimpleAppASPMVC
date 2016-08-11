@@ -8,6 +8,7 @@ namespace Calc.Models
         private double _x;
         private double _y;
 
+        //Public properites to converting json 
         public string X
         {
             get { return _x.ToString(System.Globalization.CultureInfo.InvariantCulture); }
